@@ -161,7 +161,6 @@ def who_is_it(image_path, database, model):
 	return min_dist, identity
 
 
-
 FRmodel = faceRecoModel(input_shape=(3, 96, 96))
 print("Total Params:", FRmodel.count_params())
 
